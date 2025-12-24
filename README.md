@@ -20,12 +20,4 @@ Compare historical vs accelerated recent trends
 Generate reproducible, high-quality data visualizations
 
 🧠 Skills Demonstrated
-| Category      | Technologies/Tools                       |
-| ------------- | ---------------------------------------- |
-| Programming   | Python 3.8+                              |
-| Data Analysis | Pandas, NumPy                            |
-| Statistics    | SciPy (Linear Regression)                |
-| Visualization | Matplotlib, Seaborn                      |
-| Testing       | unittest                                 |
-| Data Science  | EDA, trend forecasting, model comparison |
 
