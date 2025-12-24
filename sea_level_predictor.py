@@ -15,15 +15,13 @@ def draw_plot():
     # ===============================
     # Line of best fit (1880–2050)
     # ===============================
-    result = cast(object, linregress(df["Year"], df["CSIRO Adjusted Sea Level"]))
+    result = cast(object, linregress(df["Year"],
+                                     df["CSIRO Adjusted Sea Level"]))
 
     years_extended = range(1880, 2051)
     slope = result.slope  # type: ignore
     intercept = result.intercept  # type: ignore
-    sea_level_predicted = [
-        slope * year + intercept
-        for year in years_extended
-    ]
+    sea_level_predicted = [slope * year + intercept for year in years_extended]
 
     plt.plot(years_extended, sea_level_predicted)
 
@@ -31,16 +29,15 @@ def draw_plot():
     # Line of best fit (2000–2050 recent trend)
     # ==========================================
     df_recent = df[df["Year"] >= 2000]
-    recent_result = cast(object, linregress(
-        df_recent["Year"], df_recent["CSIRO Adjusted Sea Level"]
-    ))
+    recent_result = cast(
+        object,
+        linregress(df_recent["Year"], df_recent["CSIRO Adjusted Sea Level"]))
 
     recent_years = range(2000, 2051)
     recent_slope = recent_result.slope  # type: ignore
     recent_intercept = recent_result.intercept  # type: ignore
     recent_predicted = [
-        recent_slope * year + recent_intercept
-        for year in recent_years
+        recent_slope * year + recent_intercept for year in recent_years
     ]
 
     plt.plot(recent_years, recent_predicted)
