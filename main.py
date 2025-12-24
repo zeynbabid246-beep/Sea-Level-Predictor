@@ -1,6 +1,8 @@
-def main():
-    print("Hello from repl-nix-workspace!")
+from sea_level_predictor import draw_plot
+import matplotlib.pyplot as plt
 
+# Run the plot function
+draw_plot()
 
-if __name__ == "__main__":
-    main()
+# Display plot locally
+plt.show()
