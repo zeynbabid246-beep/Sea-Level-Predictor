@@ -31,6 +31,23 @@ Generate reproducible, high-quality data visualizations
 | Testing       | unittest                                 |
 | Data Science  | EDA, trend forecasting, model comparison |
 
+📁 Project Structure
+
+| Path                           | File/Directory | Description                           |
+| ------------------------------ | -------------- | ------------------------------------- |
+| Sea-Level-Predictor/           | Root directory | Main project folder                   |
+| ├── data/                      | Directory      | Data storage                          |
+| │   └── epa-sea-level.csv      | Dataset        | EPA global sea level data (1880–2014) |
+| ├── src/                       | Directory      | Source code                           |
+| │   ├── sea_level_predictor.py | Python module  | Core analysis & visualization logic   |
+| │   ├── main.py                | Python script  | Entry point for execution & testing   |
+| │   └── tests/                 | Directory      | Unit tests                            |
+| │       └── test_module.py     | Test file      | Comprehensive unit tests              |
+| ├── outputs/                   | Directory      | Generated results                     |
+| │   └── sea_level_plot.png     | Image          | Publication-quality visualization     |
+| ├── requirements.txt           | File           | Python dependencies                   |
+| └── README.md                  | File           | Project documentation                 |
+
 📊 Dataset :
 
 | Source         | Period    | Unit   | Key Column               |
