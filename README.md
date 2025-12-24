@@ -33,7 +33,19 @@ Generate reproducible, high-quality data visualizations
 
 📁 Project Structure :
 
-![image](image.png)
+Sea-Level-Predictor/
+
+├── data/
+│   └── epa-sea-level.csv          # EPA global sea level dataset
+├── src/
+│   ├── sea_level_predictor.py     # Core analysis & plotting
+│   ├── main.py                    # Entry point
+│   └── tests/
+│       └── test_module.py         # Unit tests
+├── outputs/
+│   └── sea_level_plot.png         # Generated visualization
+├── requirements.txt               # Dependencies
+└── README.md                      # This file
 
 📊 Dataset :
 
