@@ -362,9 +362,9 @@ Contributions are welcome! Whether you're fixing bugs, improving documentation, 
 
 **Found this project useful? Give it a ⭐!**
 
-[![GitHub](https://github.com/zeynbabid246-beep)
-[![LinkedIn](https://www.linkedin.com/in/zeynb-abid-099453300/)
-[![Email](zeynbabid246@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zeynbabid246-beep)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zeynb-abid-099453300/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zeynbabid246@gmail.com)
 
 ---
 
