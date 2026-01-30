@@ -347,12 +347,6 @@ Contributions are welcome! Whether you're fixing bugs, improving documentation, 
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 🙏 Acknowledgments
 
 - **freeCodeCamp** for project inspiration and test framework
